@@ -14,16 +14,21 @@ It showcases my background, skills, work experience and provides contact & appoi
 ├── skill.html            # Technical & language skills
 ├── contact.html          # Contact & appointment forms
 ├── style/
-│   ├── styleIndex.css
+│   ├── styleAppointment.css
+│   ├── styleBookingAction.css
+│   ├── styleFormAction.css
+│   ├── styleHome.css
 │   ├── styleEducation.css
 │   ├── styleWork.css
 │   ├── styleSkill.css
 │   └── styleContact.css
 ├── js/
-│   ├── scriptIndex.js
+│   ├── scriptHome.js
 │   ├── scriptEducation.js
 │   ├── scriptWork.js
 │   ├── scriptSkill.js
+│   ├── scriptFormAction.js
+│   ├── scriptBookingAction.js
 │   └── scriptContact.js
 ├── php/
 │   ├── form_action_page.php
