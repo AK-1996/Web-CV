@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head lang="en">
+        <title>Education</title>
+
+        <meta charset="utf-8">
+        <meta name="keywords" content="Software Engineer, Education, CV, Portfolio">
+        <meta name="description" content="Software Engineer Matteo Poire' presentation, education">
+        <!--http-equiv simulates a HTTP Response Header-->
+        <meta http-equiv="expires" content="18000">     <!--Page newly requested to the server every 5 hours-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="reised" content="27/05/2023">       <!--Last date when changes were done to the pages-->
+        <meta name="rating" content="general">          <!--Identifying the kind of page's audience-->
+
+        <link type="text/css" rel="stylesheet" href="./style/styleEducation.css">
+        <script src="./js/scriptEducation.js"></script>
+    </head>
+    <body onload="media()">
+        <header>
+            <div class="header" id="header">
+                <div class="name_square">
+                    <div class="square"></div>
+                    <div class="name">
+                        <h1>Matteo Poir&eacute;</h1>
+                        <span class="slash">/</span><span>SOFTWARE ENGINEER</span>
+                    </div>
+                </div>
+                <nav class="dropdown">
+                    <button type="button" title="menu" class="dropbtn" onclick="menu()">
+                        <hr><hr><hr>
+                    </button>
+                    <div class="dropdown-content" id="menu">
+                        <a href="./index.html">HOMEPAGE</a>
+                        <a class="active" href="#education">EDUCATION</a>
+                        <a href="./skill.html">SKILLS</a>
+                        <a href="./work.html">WORK</a>
+                        <a href="./contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="section">
+                    <button type="button" value="DARK MODE" class="mode" id="mode" onclick="dark_light()">
+                        <img src="./img/sun.svg" alt="light" id="sun_moon">
+                    </button>
+                    <div class="education">
+                        <div class="ed_square"></div>
+                        <h1>Education</h1>
+                    </div>
+                    <div class="container">
+                        <div >
+                            <h3>2023 - Present</h3>
+                            <h4>Universit&aacute; degli Studi di Pavia</h4>
+                            <h5>Location: Pavia</h5>
+                            <h5>Degree Level: Master Degree</h5>
+                        </div>
+                        <div>
+                            <p>
+                                From January I am attending the master degree course of Data Science. During the last 2 years I 
+                                worked as artisan marble worker, while I was preparing the test to be accepted into the faculty. 
+                                Up to now I really liked studying the subjects proposed in the Data Science course, but I can't 
+                                wait to start working.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>2015 - 2020</h3>
+                            <h4>Universit&aacute; degli Studi di Pavia</h4>
+                            <h5>Location: Pavia</h5>
+                            <h5>Degree Level: Bachelor's Degree</h5>
+                        </div>
+                        <div>
+                            <p>
+                                After the high school I decided to enrol to the Software Engineer faculty of the University of Pavia 
+                                because I always loved math and I always loved the idea of creating. I really loved this period 
+                                of my life, which I spent having fun and studying with friends that enrolled with me.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h3>2010 - 2015</h3>
+                            <h4>Angelo Omodeo</h4>
+                            <h5>Location: Mortara</h5>
+                            <h5>Degree Level: High School Diploma</h5>
+                        </div>
+                        <div>
+                            <p>
+                                When I was younger I attended the High Scool A. Omodeo in Mortara. Here I attended the language course 
+                                studying English, French and German. During these 5 years I refined very well my knowledge on English and 
+                                French, and in the meantime discovered a new language.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p class="foot">&copy; 2023 by Matteo Poir&eacute;.</p>
+                <ul class="foot">
+                    <li class="foot">Call<br><span class="foot">+39 366 536 3515</span></li>
+                    <li class="foot">Write<br><a href="mailto:teo16.96@gmail.com" id="email">teo16.96@gmail.com</a></li>
+                    <li class="foot">Follow<br>
+                        <ul>
+                            <li><a href="https://www.facebook.com/matteo.poire.9" rel="external" target="_blank" title="facebook page"><img src="./img/facebook_icon.png" alt="facebook profile" id="facebook_foot"></a></li>
+                            <li><a href="https://www.instagram.com/teo.poire/" rel="external" target="_blank" title="instagram page"><img src="./img/instagram_icon.png" alt="instagram profile" id="instagram_foot"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

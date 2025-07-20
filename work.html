@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head lang="en">
+        <title>Work</title>
+
+        <meta charset="utf-8">
+        <meta name="keywords" content="Software Engineer, Education, CV, Portfolio, Skills, Work Experience">
+        <meta name="description" content="Software Engineer Matteo Poire' presentation, education, skills, work experience">
+        <!--http-equiv simulates a HTTP Response Header-->
+        <meta http-equiv="expires" content="18000">     <!--Page newly requested to the server every 5 hours-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="reised" content="27/05/2023">       <!--Last date when changes were done to the pages-->
+        <meta name="rating" content="general">          <!--Identifying the kind of page's audience-->
+
+        <link type="text/css" rel="stylesheet" href="./style/styleWork.css">
+        <script src="./js/scriptWork.js"></script>
+    </head>
+    <body onload="media()">
+        <header>
+            <div class="header" id="header">
+                <div class="name_square">
+                    <div class="square"></div>
+                    <div class="name">
+                        <h1>Matteo Poir&eacute;</h1>
+                        <span class="slash">/</span><span>SOFTWARE ENGINEER</span>
+                    </div>
+                </div>
+                <nav class="dropdown">
+                    <button type="button" title="menu" class="dropbtn" onclick="menu()">
+                        <hr><hr><hr>
+                    </button>
+                    <div class="dropdown-content" id="menu">
+                        <a href="./index.html">HOMEPAGE</a>
+                        <a href="./education.html">EDUCATION</a>
+                        <a href="./skill.html">SKILLS</a>
+                        <a class="active" href="#work">WORK</a>
+                        <a href="./contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="section">
+                    <button type="button" value="DARK MODE" class="mode" id="mode" onclick="dark_light()">
+                        <img src="./img/sun.svg" alt="light" id="sun_moon">
+                    </button>
+                    <div class="work">
+                        <div class="work_square"></div>
+                        <h1>Work Experience</h1>
+                    </div>
+                    <div class="container">
+                        <div class="col-7">
+                            <div class="wName">
+                                <div class="bar"></div>
+                                <h3>Marble Worker</h3>
+                                <div class="job-info">
+                                    <p><span class="job-label">Period:</span> March 2020 – Jan 2023</p>
+                                    <p><span class="job-label">Location:</span> Besate, Italy</p>
+                                    <p><span class="job-label">Main tasks:</span> 
+                                        Positioning and assembly of the final product, Polishing, Bush-hammering, Chamfering, Cutting with a flexible tool
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <img src="./img/workImage.png" alt="pc image" id="pc_image">
+                        </div>
+                    </div>
+                    <div class="promote">
+                        <h3>Are you interested in me?</h3>
+                        <h2><a class="active" href="./contact.html">Contact me!</a></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p class="foot">&copy; 2023 by Matteo Poir&eacute;.</p>
+                <ul class="foot">
+                    <li class="foot">Call<br><span class="foot">+39 366 536 3515</span></li>
+                    <li class="foot">Write<br><a href="mailto:teo16.96@gmail.com" id="email">teo16.96@gmail.com</a></li>
+                    <li class="foot">Follow<br>
+                        <ul>
+                            <li><a href="https://www.facebook.com/matteo.poire.9" rel="external" target="_blank" title="facebook page"><img src="./img/facebook_icon.png" alt="facebook profile" id="facebook_foot"></a></li>
+                            <li><a href="https://www.instagram.com/teo.poire/" rel="external" target="_blank" title="instagram page"><img src="./img/instagram_icon.png" alt="instagram profile" id="instagram_foot"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

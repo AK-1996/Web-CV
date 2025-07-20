@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head lang="en">
+        <title>Skills</title>
+
+        <meta charset="utf-8">
+        <meta name="keywords" content="Software Engineer, Education, CV, Portfolio, Skills">
+        <meta name="description" content="Software Engineer Matteo Poire' presentation, education, skills">
+        <!--http-equiv simulates a HTTP Response Header-->
+        <meta http-equiv="expires" content="18000">     <!--Page newly requested to the server every 5 hours-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="reised" content="27/05/2023">       <!--Last date when changes were done to the pages-->
+        <meta name="rating" content="general">          <!--Identifying the kind of page's audience-->
+
+        <link type="text/css" rel="stylesheet" href="./style/styleSkill.css">
+        <script src="./js/scriptSkill.js"></script>
+    </head>
+    <body onload="media()">
+        <header>
+            <div class="header" id="header">
+                <div class="name_square">
+                    <div class="square"></div>
+                    <div class="name">
+                        <h1>Matteo Poir&eacute;</h1>
+                        <span class="slash">/</span><span>SOFTWARE ENGINEER</span>
+                    </div>
+                </div>
+                <nav class="dropdown">
+                    <button type="button" title="menu" class="dropbtn" onclick="menu()">
+                        <hr><hr><hr>
+                    </button>
+                    <div class="dropdown-content" id="menu">
+                        <a href="./index.html">HOMEPAGE</a>
+                        <a href="./education.html">EDUCATION</a>
+                        <a class="active" href="#skill">SKILLS</a>
+                        <a href="./work.html">WORK</a>
+                        <a href="./contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="section">
+                    <button type="button" value="DARK MODE" class="mode" id="mode" onclick="dark_light()">
+                        <img src="./img/sun.svg" alt="light" id="sun_moon">
+                    </button>
+                    <div class="skills">
+                        <div class="sk_square"></div>
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="container">
+                        <div >
+                            <h2>Software knowledge</h3>
+                        </div>
+                        <div class="software_container">
+                            <div class="software">
+                                <div class="software_name python" data-width="80%"><span>PYTHON</span>80%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name java" data-width="70%"><span>JAVA</span>70%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name c" data-width="70%"><span>C</span>70%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name mips" data-width="60%"><span>MIPS</span>60%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name sql" data-width="60%"><span>SQL</span>60%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name html" data-width="60%"><span>HTML</span>60%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name css" data-width="60%"><span>CSS</span>60%</div>
+                            </div>
+                            <div class="software">
+                                <div class="software_name javascript" data-width="60%"><span>JAVASCRIPT</span>60%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div>
+                            <h2>Languages knowledge</h2>
+                        </div>
+                        <div>
+                            <div class="lvContainer">
+                                <div class="lv italian"></div>
+                                <h3>Italian -</h3>
+                            </div>
+                            <h4>Mother Tongue</h4>
+                            <div class="lvContainer">
+                                <div class="lv english"></div>
+                                <h3>English -</h3>
+                            </div>
+                            <h4>Advanced</h4>
+                            <div class="lvContainer">
+                                <div class="lv french"></div>
+                                <h3>French -</h3>
+                            </div>
+                            <h4>Very Good</h4>
+                            <div class="lvContainer">
+                                <div class="lv german"></div>
+                                <h3>German -</h3>
+                            </div>
+                            <h4>Basic</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p class="foot">&copy; 2023 by Matteo Poir&eacute;.</p>
+                <ul class="foot">
+                    <li class="foot">Call<br><span class="foot">+39 366 536 3515</span></li>
+                    <li class="foot">Write<br><a href="mailto:teo16.96@gmail.com" id="email">teo16.96@gmail.com</a></li>
+                    <li class="foot">Follow<br>
+                        <ul>
+                            <li><a href="https://www.facebook.com/matteo.poire.9" rel="external" target="_blank" title="facebook page"><img src="./img/facebook_icon.png" alt="facebook profile" id="facebook_foot"></a></li>
+                            <li><a href="https://www.instagram.com/teo.poire/" rel="external" target="_blank" title="instagram page"><img src="./img/instagram_icon.png" alt="instagram profile" id="instagram_foot"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

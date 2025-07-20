@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head lang="en">
+        <title>Homepage</title>
+
+        <meta charset="utf-8">
+        <meta name="keywords" content="Software Engineer, Curriculum, CV, Portfolio">
+        <meta name="description" content="Software Engineer Matteo Poire' presentation, Curriculum and contancts">
+        <!--http-equiv simulates a HTTP Response Header-->
+        <meta http-equiv="expires" content="18000">     <!--Page newly requested to the server every 5 hours-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="reised" content="27/05/2023">       <!--Last date when changes were done to the pages-->
+        <meta name="rating" content="general">          <!--Identifying the kind of page's audience-->
+
+        <link type="image/x-icon" rel="icon" href="">
+        <link type="text/css" rel="stylesheet" href="./style/styleHome.css">
+        <script src="./js/scriptHome.js"></script>
+    </head>
+    <body onload="media()">
+        <header>
+            <div class="header" id="header">
+                <div class="name_square">
+                    <div class="square"></div>
+                    <div class="name">
+                        <h1>Matteo Poir&eacute;</h1>
+                        <span class="slash">/</span><span>SOFTWARE ENGINEER</span>
+                    </div>
+                </div>
+                <nav class="dropdown">
+                    <button type="button" title="menu" class="dropbtn" onclick="menu()">
+                        <hr><hr><hr>
+                    </button>
+                    <div class="dropdown-content" id="menu">
+                        <a class="active" href="#home">HOMEPAGE</a>
+                        <a href="./education.html">EDUCATION</a>
+                        <a href="./skill.html">SKILLS</a>
+                        <a href="./work.html">WORK</a>
+                        <a href="./contact.html">CONTACT</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="section col-5"></div>
+                <div class="center col-7" id="centerPanel">
+                    <div class="photo col-6">
+                        <button type="button" value="DARK MODE" class="mode" id="mode" onclick="dark_light()">
+                            <img src="./img/sun.svg" alt="light" id="sun_moon">
+                        </button>
+                        <img src="./img/me.jpg" alt="Me" id="me">
+                        <div>
+                            <h1 class="center">Matteo</h1>
+                            <h1 class="center">Poir&eacute;</h1>
+                        </div>
+                        <hr class="center">
+                        <span id="profession">SOFTWARE ENGINEER</span>
+                        <div class="social">
+                            <ul>
+                                <li class="social"><a href="https://www.facebook.com/matteo.poire.9" rel="external" target="_blank" title="facebook page"><img src="./img/facebook_icon.png" alt="facebook profile" id="facebook"></a></li>
+                                <li class="social"><a href="https://www.instagram.com/teo.poire/" rel="external" target="_blank" title="instagram page"><img src="./img/instagram_icon.png" alt="instagram profile" id="instagram"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about col-6">
+                        <h1 class="greeting hello">Hello</h1>
+                        <h1 class="greeting">Here's who I am & what I do</h1>
+                        <ul>
+                            <li id="skills" onmouseover="skillsHoverOn(this)" onmouseout="skillsHoverOut(this)"><a href="./skill.html" target="_self" title="skills">SKILLS</a></li>
+                            <li id="work" onmouseover="workHoverOn(this)" onmouseout="workHoverOut(this)"><a href="./work.html" target="_self" title="work">WORK</a></li>
+                        </ul>
+                        <p class="about">
+                            <span>About me: </span>    
+                            My name is Matteo Poir&eacute;, I am a software engineer graduated from the university of Pavia. Actually, I am continuing studying in the field of Data Science, 
+                            but I am also seeking a part-time job as back-end developer to hone my skills. I still don't have any work experience in the software engineering context, however 
+                            I can't wait to get started. Feel free to contact me if you have any question.
+                            <br><br>
+                            <!-- <span class="youtube"><a href="https://www.youtube.com/watch?v=dAzS-fF1xRs&t=2s">Know me better</a></span> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p class="foot">&copy; 2023 by Matteo Poir&eacute;.</p>
+                <ul class="foot">
+                    <li class="foot">Call<br><span class="foot">+39 366 536 3515</span></li>
+                    <li class="foot">Write<br><a href="mailto:teo16.96@gmail.com" id="email">teo16.96@gmail.com</a></li>
+                    <li class="foot">Follow<br>
+                        <ul>
+                            <li><a href="https://www.facebook.com/matteo.poire.9" rel="external" target="_blank" title="facebook page"><img src="./img/facebook_icon.png" alt="facebook profile" id="facebook_foot"></a></li>
+                            <li><a href="https://www.instagram.com/teo.poire/" rel="external" target="_blank" title="instagram page"><img src="./img/instagram_icon.png" alt="instagram profile" id="instagram_foot"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
